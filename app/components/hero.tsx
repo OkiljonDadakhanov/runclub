@@ -1,3 +1,4 @@
+
 import CustomUnderline from "./ui/custom-underline";
 import '../styles/hero.module.css'
 import Link from "next/link";
@@ -7,7 +8,8 @@ import FeaturedRunClubs from "./featured-run-clubs";
 import JoinUs from "./join-us";
 import FaqSection from "./faq-section";
 import Newsletter from "./newsletter";
-import Footer from "./footer";
+import { motion } from 'framer-motion';
+
 
 const Hero: React.FC = () => {
     return (
@@ -20,16 +22,23 @@ const Hero: React.FC = () => {
                 <div className="container w-[50%] m-auto pt-[55px] flex flex-col justify-between gap-3  ">
 
                     <h1 className="font-extrabold text-5xl text-center">
-                        Find Your Stride: Discover <CustomUnderline text="Run Clubs" /> Near You
+                        Find Your Stride: Discover
+
+                        <CustomUnderline text="Run Clubs" />
+
+                        Near You
                     </h1>
 
                     <h3 className="text-xl leading-7 mb-6 text-center my-[40px]">
                         Embark on Your Running Journey: Connect with Like-Minded Runners for Fitness, Fun, and Friendship
                     </h3>
 
+
                     <button className="text-[#537bf8] bg-white font-bold py-3 px-8 rounded-full text-lg self-center cursor-pointer">
                         Explore more clubs
                     </button>
+
+
                     <section className="flex flex-col gap-3 mt-6">
                         <p className="flex gap-3 self-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide inline-block lucide-calendar"><path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /></svg>

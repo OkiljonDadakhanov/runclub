@@ -4,10 +4,7 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import "./globals.css";
 import { Providers } from "./providers";
-import {
-  ClerkProvider,
 
-} from '@clerk/nextjs'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,9 +25,7 @@ export default function RootLayout({
 
         <Providers>
           <Header />
-          <ClerkProvider>
-            {children}
-          </ClerkProvider>
+          {children}
           <Footer />
         </Providers>
       </body>
