@@ -22,7 +22,10 @@ const Header: React.FC = () => {
                 </ul>
             </nav>
 
-            <ButtonMenu children='Get started' colorScheme="blue" size="lg" buttonColor="white" />
+            <ButtonMenu colorScheme="blue" size="lg" buttonColor="white">
+                Get started
+            </ButtonMenu>
+
 
         </header>
     );

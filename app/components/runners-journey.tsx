@@ -5,7 +5,7 @@ const RunnersJourney: React.FC = () => {
         <>
             <section className="mt-9 relative">
                 <h1 className="text-4xl font-bold text-center text-gray-900">Your Stride Seekers Journey</h1>
-                <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto mt-4">Embark on a running adventure that's uniquely yours</p>
+                <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto mt-4">Embark on a running adventure that is uniquely yours</p>
                 <div className=" w-[80%] m-auto relative z-10 flex flex-col md:flex-row justify-between items-center gap-6 md:items-start space-y-12 md:space-y-0 mt-[60px]">
                     <div className="journey-card flex flex-col items-center gap-3 max-w-xs ">
                         <div className="rounded-full p-6 bg-blue-100 shadow-lg mb-4">
